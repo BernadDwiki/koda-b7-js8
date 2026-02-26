@@ -23,7 +23,7 @@ Genre : ${this.genre}`
             castName += `${this.cast[i].name}\n` 
             i++;
         }
-        return `Cast : ${castName}`
+        return `Cast :\n${castName}`
     },
 
     setTitle: function(newTitle){
