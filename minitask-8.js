@@ -32,6 +32,5 @@ Genre : ${this.genre}`
 console.log(movie.getFilm())
 console.log(movie.getCast())
 movie.setTitle("Uwaw")
-console.log("Judul Film : "+movie.title)
 movie.setImage("Badak")
-console.log("Gambar : "+movie.image)
+console.log(movie.getFilm())
